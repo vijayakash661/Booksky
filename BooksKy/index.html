@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+    <div class="container">
+        <div class="container-box">
+            <h2>Aware For the feature</h2>
+            <h5>Elon mask bala</h5>
+            <p>Lorem ipsum dolor sit, laboriosam labore quaerat temporibus, minus dolore beatae minima aliquid? Excepturi repudiandae eveniet exercitationem ea explicabo quasi neque suscipit?</p>
+            <button onclick="deletebox(event)">Delete</button>
+        </div>
+    </div>
+<button id="addbtn">+</button>
+
+<div id="overlay"></div>
+<div id="popupbox">
+  <form>
+    <h1>Add Book</h1>
+    <input type="text" id="book-title"placeholder="Book Title">
+    <input id="book-author"placeholder="Book Author">
+    <textarea id="short-description"placeholder="Short Description"></textarea>
+    <button id="add-box">Add</button>
+    <button id="cancel-box">Cancel</button>
+  </form>
+</div>
+<p class="copyrights">Copyright © 2024 Booksky, All Right Reserved, Designed by Akash</p>
+ <script src="script.js"></script>
+</body>
+</html>
